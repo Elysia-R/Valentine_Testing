@@ -46,8 +46,3 @@ function generateMessage(noCount) {
   const messageIndex = Math.min(noCount, messages.length - 1);
   return messages[messageIndex];
 }
-
-function toggleMuted() {
-  var sound = document.getElementById('sound');
-  sound.muted = !sound.muted;
-}
